@@ -1,0 +1,33 @@
+.profile{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;}
+
+    .profilesindiv{
+        padding: 2rem;
+    margin: 2rem;
+    border-radius: 0.2em;
+    border-style: solid;
+    border-color: chocolate;
+}
+
+.profilepic{
+width: 150px; height:200px;
+
+}
+
+.recipe{
+    padding: 0.5rem;
+margin: 0.5rem;
+border-radius: 0.2em;
+border-style: solid;
+border-color: blue;
+background-color:rgb(204, 226, 245);
+text-decoration: none;
+}
+li {
+    color: blue;
+    list-style-type: none;
+}
+.title{ color: darkgoldenrod;}

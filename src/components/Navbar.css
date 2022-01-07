@@ -1,0 +1,19 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    color: aliceblue;
+    background-color: burlywood;
+    border: 3px solid;
+    border-radius: 0.5rem;
+    margin: 3px;
+padding: 0.5rem;
+
+}
+li{    border: 1px solid;
+    border-color:chocolate;
+    background-color:white;
+    border-radius: 0.5rem;
+    margin: 10px;
+padding:10px;
+}
