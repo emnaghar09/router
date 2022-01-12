@@ -37,14 +37,21 @@
     transform: rotate(360deg);
   }
 }
+
+.homeimg{
+  width: 100%; 
+}
+
+
 .cardimg{
   width: 5rem;
   height: 18rem;
 }
 .footer{
-  color: aliceblue;
+  color: black;
   background-color: burlywood;
   border: 3px solid;
+  border-color: burlywood;
   border-radius: 0.5rem;
   margin: 3px;
 padding: 0.5rem;
@@ -76,5 +83,51 @@ padding: 0.5rem;
   padding: 1.5rem;
   margin: 1.5rem;
 }
-.homeimg{
-  width: 100%; }
+
+  .contact{
+    background-image: url(https://i.pinimg.com/originals/de/1e/1e/de1e1e356149b29b25565c018b751628.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25rem;
+    width: 80rem;
+    -webkit-animation: backgroundScroll 20s linear infinite;
+    animation: backgroundScroll 20s linear infinite;
+    
+    }
+    
+    @-webkit-keyframes backgroundScroll {
+    from {background-position: 0 0;}
+    to {background-position: -400px 0;}
+    }
+            
+    @keyframes backgroundScroll {
+    from {background-position: 0 0;}
+    to {background-position: -400px 0;}
+    }
+    .add{
+      display: flex;
+      flex-direction: column;
+      margin: 1rem;
+      justify-content: space-between;
+      align-content: center;
+      align-items: center;
+    }
+    .product{ display: flex;} 
+
+    .product-title{display: flex;
+      padding: 2rem;
+      flex-direction: column;
+  
+      justify-content: space-between;}
+
+
+      .product-btn{display: flex;
+        display: flex;
+    padding: 0.5rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;}

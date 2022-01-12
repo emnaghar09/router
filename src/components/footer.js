@@ -7,7 +7,7 @@ function Navbar() {
         <div className="footer">
         <p> This site is here to help you improve your baking skills </p>
         <Link to="/Contact"><Button variant="danger">Contact</Button></Link>
-        <p> copy rights </p>
+        <p> Thank you! </p>
 
         </div>
     )

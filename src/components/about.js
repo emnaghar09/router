@@ -1,8 +1,9 @@
 import React from 'react'
 import {Modal, Button, Form} from 'react-bootstrap'; 
 import {useState} from 'react';
+import Quote from './images/quote.jpg';
 
-function Add({handlerDesserts}) {
+function Add({handlerSweet}) {
     // imported for the form group
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
@@ -15,14 +16,15 @@ function Add({handlerDesserts}) {
   
    
     
-    // const addNewMovie = () => {
-    //     handlerMovie({title,time,recette})
-    //     handleClose()
-    // }
+    const addNewSweet = () => {
+        handlerSweet({title,time,recette})
+        handleClose()
+    }
 
     return (
     <div className="add">
-        <Button variant="warning" onClick={handleShow} className="btnadd">
+          
+        <Button variant="dark"onClick={handleShow} className="btnadd">
        ADD NEW DESSERT
         </Button>
         <Modal show={show} onHide={handleClose}>
@@ -50,14 +52,13 @@ function Add({handlerDesserts}) {
 
         </Modal.Body>
         <Modal.Footer>
-            <Button variant="secondary" onClick={handleClose}>
-            Cancel
-            </Button>
-            {/* <Button variant="warning" onClick={addNewMovie}>
+        
+           <Button variant="warning" onClick={addNewSweet}>
             Save Changes
-            </Button> */}
+            </Button>
         </Modal.Footer>
         </Modal>
+        <img  src={Quote}/>
     </div>
     );
 }

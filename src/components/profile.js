@@ -13,7 +13,7 @@ function profile() {
   <Card.Img className="cardimg" variant="top" src={el.affiche}/>
   <Card.Body>
     <Card.Title>{el.title}</Card.Title>
-    <Card.Text> for recipe click on this <Link to={`/Details/${el.id}`}><Button>Recipe</Button></Link></Card.Text>
+    <Card.Text> for recipe click on this <Link to={`/Details/${el.id}`}><Button variant="secondary">Recipe</Button></Link></Card.Text>
   </Card.Body></Card>
   </div>))}
 
